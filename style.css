@@ -256,23 +256,14 @@ main {
 
 #sbtn {
     width: 40px;
-    /*検索ボタンの横幅*/
     height: 30px;
-    /*検索ボタンの縦幅*/
     border-radius: 0 3px 3px 0;
-    /*検索ボタンの角を丸める*/
     position: absolute;
-
-    /*検索ボタンの背景カラー*/
     background: #dcdcdc;
     border: none;
-    /*検索ボタンの枠線を消す*/
     color: #8c8c8c;
-    /*検索ボタンのテキストカラー*/
     font-weight: bold;
-    /*検索ボタンのテキスト太字*/
     font-size: 16px;
-    /*検索ボタンのフォントサイズ*/
 }
 
 
