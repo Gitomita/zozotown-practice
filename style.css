@@ -14,9 +14,6 @@ body {
     color: #2d2d2d;
 }
 
-/*min-widthは、これ以上要素を小さくしたくない時に使える。上記のようにPC版の大きさをそのままスマホ版のレイアウトに使いたい、というときに使える。
-width:1000px;の部分で大きさを保持してくれる、という話。これ以上は小さくならないよ、という話。*/
-
 header,
 .left,
 main,
@@ -239,10 +236,48 @@ main {
     margin-top: 11px;
 }
 
-.hkeyword {
-    margin: 0 -2px 0 0;
-    float: left;
+
+.sbox_1 {
+    margin-top: 9px;
+    position: relative;
 }
+
+#sbox {
+    height: 30px;
+    width: 225px;
+    padding: 0 10px;
+    border-radius: 3px 0 0 3px;
+    background: white;
+    outline: 0;
+    border: none;
+    color: #8c8c8c;
+    font-size: 13px;
+}
+
+#sbtn {
+    width: 40px;
+    /*検索ボタンの横幅*/
+    height: 30px;
+    /*検索ボタンの縦幅*/
+    border-radius: 0 3px 3px 0;
+    /*検索ボタンの角を丸める*/
+    position: absolute;
+
+    /*検索ボタンの背景カラー*/
+    background: #dcdcdc;
+    border: none;
+    /*検索ボタンの枠線を消す*/
+    color: #8c8c8c;
+    /*検索ボタンのテキストカラー*/
+    font-weight: bold;
+    /*検索ボタンのテキスト太字*/
+    font-size: 16px;
+    /*検索ボタンのフォントサイズ*/
+}
+
+
+
+
 
 .df {
     padding: 5px 5px 5px 11px;
@@ -255,26 +290,7 @@ main {
     text-decoration: none;
 }
 
-.search-icon {
-    margin: 0 0 0 0;
-    height: 28px;
-    position: relative;
-    float: left;
-    color: #ffffff;
-    border-radius: 0 2px 2px 0;
-    background: #dcdcdc;
-    cursor: pointer;
-}
 
-.search-icon input {
-    height: 28px;
-    width: 40px;
-    cursor: pointer;
-    border: none;
-    background-image: url(image/ico_common.png);
-    background-position: 12px 6px;
-    border-radius: 0 2px 2px 0;
-}
 
 .zozo-form-right {
     display: flex;
